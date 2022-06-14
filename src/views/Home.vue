@@ -10,6 +10,9 @@
       </div>
     </div>
     <div>
+      <Carrousel />
+    </div>
+    <div>
       <DrinksList />
     </div>
   </div>
@@ -17,11 +20,13 @@
 
 <script>
 import DrinksList from "@/components/DrinksList";
+import Carrousel from '../components/Carrousel/index'
 
 export default {
   name: 'Home',
   components: {
-    DrinksList
+    DrinksList,
+    Carrousel
   }
 }
 </script>
