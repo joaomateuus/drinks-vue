@@ -1,14 +1,8 @@
 <template>
   <div class="home">
-    <div class="flex flex-row justify-between items-center bg-black h-32">
-      <img class="h-12 w-22 ml-4" src="https://www.pngkey.com/png/full/429-4296716_drink-menu-derbys-bar-logo-white-drink-menu.png">
-      <div>
-        <ul class="flex flex-row justify-evenly w-96 text-white">
-          <li>Sobre</li>
-          <li>Bebidas</li>
-        </ul>
-      </div>
-    </div>
+    <header>
+      <Navbar />
+    </header>
     <div>
       <Carrousel />
     </div>
@@ -19,6 +13,7 @@
 </template>
 
 <script>
+import Navbar from '../components/Header/Navbar'
 import DrinksList from "@/components/DrinksList";
 import Carrousel from '../components/Carrousel/index'
 
@@ -26,7 +21,8 @@ export default {
   name: 'Home',
   components: {
     DrinksList,
-    Carrousel
+    Carrousel,
+    Navbar
   }
 }
 </script>

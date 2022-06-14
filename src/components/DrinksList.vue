@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mb-4">
     <h1 class="mt-2 text-2xl">Lista de Bebidas</h1>
     <div class="flex items-center justify-evenly mt-2">
       <div class="flex flex-col items-center justify-center" v-for="drink in drinks" key="drink.id">
