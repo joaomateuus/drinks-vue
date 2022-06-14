@@ -15,17 +15,17 @@ export default {
     drinks: [],
 
   }),
-  methods:{
-    /*
-    gettingDrinks(){
-      try{
-        axios.get().then()
-      } catch () {
-
-      }
+  async beforeMount(){
+    try {
+      await axios.get('http://localhost:8000/drinks/').then((response) => {
+        this.drinks = response.data;
+        console.log(this.drinks);
+      })
+    } catch (error){
+      console.log(error)
     }
-  */
-  }
+  },
+  methods:{}
 
 }
 

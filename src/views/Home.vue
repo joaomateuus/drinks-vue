@@ -10,15 +10,18 @@
       </div>
     </div>
     <div>
-
+      <DrinksList />
     </div>
   </div>
 </template>
 
 <script>
+import DrinksList from "@/components/DrinksList";
 
 export default {
   name: 'Home',
-
+  components: {
+    DrinksList
+  }
 }
 </script>
