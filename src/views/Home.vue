@@ -3,7 +3,7 @@
     <header>
       <Navbar />
     </header>
-    <div>
+    <div class="pt-6">
       <Carrousel />
     </div>
     <div>

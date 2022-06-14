@@ -20,10 +20,10 @@ export default {
     currentSlide: 0,
     slideInterval: null,
     banners: [
-      'https://picsum.photos/id/1002/4312/2868',
-      'https://picsum.photos/id/1000/5626/3635',
-      'https://picsum.photos/id/1005/5760/3840',
-      'https://picsum.photos/id/1012/3973/2639'
+      'https://us.budweiser.com/img/home/desktop/Bud-Supreme-carousel-image.png',
+      'https://www.kentucky.com/latest-news/ebvv0c/picture235391842/alternates/FREE_1140/Black%20Lager_Copper%20Lager_glass_bottle.jpg',
+      'https://thumbs.dreamstime.com/b/wheat-beer-banner-ads-flying-hops-liquid-d-illustration-golden-tone-background-mountain-141918587.jpg',
+      'https://img.freepik.com/free-vector/wheat-beer-banner-blackboard-with-engraved-hops-barrel-3d-style-glass-bottle_317810-1690.jpg?w=2000'
     ]
   }),
   methods: {

@@ -7,8 +7,9 @@
           <div>
             <img class="h-38 w-48" src="https://s2.glbimg.com/W2QRvvfeLt57STPhptJ7xdxO_yc=/smart/e.glbimg.com/og/ed/f/original/2020/12/21/receita-drinks-ceia-natal_10.jpg">
           </div>
-          <h1>{{ drink.name }}</h1>
-          <h2>{{ drink.description }}</h2>
+          <h1 class="text-3xl text-black">{{ drink.name }}</h1>
+          <h1 class="text-2xl font-bold text-green-700">R$ 12,00</h1>
+          <p class="text-xl text-black">{{ drink.description }}</p>
         </div>
       </div>
     </div>
